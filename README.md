@@ -24,19 +24,21 @@
 
 ## 💻 系統配置要求 (System Requirements)
 
-為了確保 V10 核心的流暢運行與高清渲染，建議您的硬件滿足以下要求：
+為了確保 V10 核心的流暢運行，建議您的硬件滿足以下要求：
 
-### 🛠️ 最低配置 (Minimum)
-- **显存 (VRAM)**: 8GB (NVIDIA RTX 30 系列或同级)
-- **内存 (RAM)**: 16GB
-- **存储空间**: 10GB 剩余 SSD 空间
+### 🛠️ 基礎運行要求 (App Execution)
+*僅需運行軟件界面，使用雲端算力或遠程同步時：*
+- **显卡**: 支持 WebGL 2.0 的集成显卡即可
+- **内存 (RAM)**: 4GB / 8GB
+- **存储空间**: 500MB+ 剩余 SSD 空间
 - **系统**: Windows 10/11 或 macOS 13 (Ventura)
 
-### 🚀 推荐配置 (Recommended)
-- **显存 (VRAM)**: 12GB / 16GB / 24GB (NVIDIA RTX 4070Ti 及以上)
-- **硬件加速**: 支持 Apple Silicon (M1/M2/M3 Max)
-- **内存 (RAM)**: 32GB 或更高
-- **网络**: 500Mbps+ 光纤（用于同步云端算力资产）
+### 🚀 本地算力加速要求 (Local Rendering Pro)
+*如果您需要在本地執行大規模 ComfyUI 渲染任務：*
+- **显存 (VRAM)**: 8GB / 12GB / 24GB (NVIDIA RTX 30/40 系列)
+- **硬件加速**: 支持 Apple Silicon (M1/M2/M3 Pro/Max)
+- **内存 (RAM)**: 16GB / 32GB 或更高
+- **网络**: 500Mbps+ 光纤（用于同步云端资产）
 
 ---
 
