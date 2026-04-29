@@ -1,10 +1,10 @@
 {
-  "version": "10.0.29",
-  "tag": "v10.0.29",
-  "name": "10.0.29",
-  "publishedAt": "2026-04-29T11:55:49Z",
+  "version": "10.0.30",
+  "tag": "v10.0.30",
+  "name": "10.0.30",
+  "publishedAt": "2026-04-29T14:12:31Z",
   "releaseUrl": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/latest",
-  "notesMarkdown": "JMCAI CORE ComfyPro v10.0.29 桌面正式版发布。\n\n本次发布已同步上线以下桌面客户端下载：\n- Windows 安装版\n- Windows 绿色便携版\n- macOS Apple Silicon 版\n- macOS Intel 版\n\n官网下载页与公开分发仓库已对齐到该版本。",
+  "notesMarkdown": "JMCAI CORE ComfyPro v10.0.30 桌面正式版发布。\n\n本次发布已同步上线以下桌面客户端下载：\n- Windows 安装版\n- Windows 绿色便携版\n- macOS Apple Silicon 版\n- macOS Intel 版\n\n官网下载页与公开分发仓库已对齐到该版本。",
   "assets": {
     "winSetup": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/latest/download/JMCAI-Setup.exe",
     "winPortable": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/latest/download/JMCAI-Portable.exe",
