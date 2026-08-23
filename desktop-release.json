@@ -1,10 +1,10 @@
 {
-  "version": "10.0.39",
-  "tag": "v10.0.39",
-  "name": "JMCAI CORE ComfyPro v10.0.39",
-  "publishedAt": "2026-08-22T21:57:27Z",
+  "version": "10.0.40",
+  "tag": "v10.0.40",
+  "name": "10.0.40",
+  "publishedAt": "2026-08-23T11:33:20Z",
   "releaseUrl": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/latest",
-  "notesMarkdown": "JMCAI CORE ComfyPro v10.0.39\n\n- 图片、音频、视频上传槽位按有效素材动态裁剪，避免空槽位导致 ComfyUI 校验失败。\n- 工作流扩展上传面板和 Comfy 节点引用条支持紧凑媒体槽位显示。\n- 支持画布媒体拖拽到工作流上传槽位，并保持素材持久化引用。\n- 第一场景新增 F/U/R/Y 快捷键统一、小地图拖动导航、惯性偏好和可缩放便签。\n- 修复扩展默认值执行链、媒体类型校验和失效资源恢复。\n- Web 与桌面端兼容性说明：Web Core、Windows 和 macOS 发布包统一为 10.0.39。",
+  "notesMarkdown": "JMCAI CORE ComfyPro v10.0.40 桌面正式版发布。\n\n本次发布已同步上线以下桌面客户端下载：\n- Windows 安装版\n- Windows 绿色便携版\n- macOS Apple Silicon 版\n- macOS Intel 版\n\n官网下载页与公开分发仓库已对齐到该版本。",
   "assets": {
     "winSetup": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/latest/download/JMCAI-Setup.exe",
     "winPortable": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/latest/download/JMCAI-Portable.exe",
