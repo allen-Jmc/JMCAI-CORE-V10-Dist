@@ -1,14 +1,14 @@
 {
-  "version": "10.0.42",
-  "tag": "v10.0.42",
-  "name": "10.0.42",
-  "publishedAt": "2026-08-25T02:15:07Z",
-  "releaseUrl": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/latest",
-  "notesMarkdown": "JMCAI CORE ComfyPro v10.0.42 桌面正式版发布。\n\n本次发布已同步上线以下桌面客户端下载：\n- Windows 安装版\n- Windows 绿色便携版\n- macOS Apple Silicon 版\n- macOS Intel 版\n\n官网下载页与公开分发仓库已对齐到该版本。",
+  "version": "10.0.44",
+  "tag": "v10.0.44",
+  "name": "JMCAI CORE ComfyPro v10.0.44",
+  "publishedAt": "2026-08-26T20:55:50Z",
+  "releaseUrl": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/tag/v10.0.44",
+  "notesMarkdown": "# JMCAI CORE ComfyPro v10.0.44\n\n## 中文\n\n- 延续 10.0.43 的 JMCAI Gemini 异步图片模型、远程媒体引用回退、同步媒体超时和运行时协议兼容优化。\n- 增强运行时连接别名、模型资源清单解析与 Comfy 工作流资源刷新，提升连接配置和资源同步可靠性。\n- 优化画板尺寸预设、缩放、适配、历史记录和调整尺寸状态，改善画布操作稳定性。\n- 修复桌面端与 Web Core 使用不同版本来源导致的升级误报；当前版本与远程 Web Core 相同时不再重复提示。\n- 将 Windows 打包后的可执行文件冒烟移至签名后执行，避免与 `rcedit` 资源写入并发造成文件锁和发布失败。\n- 桌面安装包先进入 Draft，Windows、macOS、Web Core 和更新元数据全部就绪后再公开并切换 latest；下载地址固定到版本 Tag。\n\n## English\n\n- Carries forward the JMCAI Gemini asynchronous image model, remote media fallback, synchronous media timeout, and runtime protocol improvements from 10.0.43.\n- Improves runtime connection aliases, model inventory parsing, and Comfy workflow resource refresh for more reliable configuration and synchronization.\n- Refines artboard size presets, zooming, fitting, history, and resize state for more stable canvas interactions.\n- Fixes false Web Core upgrade prompts caused by desktop and Web Core checks using different version sources; matching versions no longer trigger an update.\n- Moves the Windows packaged executable smoke to the post-signing stage, preventing file-lock failures while `rcedit` writes executable resources.\n- Stages desktop installers in Draft until Windows, macOS, Web Core, and update metadata are complete, then publishes and switches latest using immutable tag URLs.\n\n## 日本語\n\n- 10.0.43 で追加した JMCAI Gemini の非同期画像モデル、リモートメディアのフォールバック、同期メディアのタイムアウト、ランタイムプロトコル互換性の改善を引き継ぎます。\n- ランタイム接続エイリアス、モデル一覧解析、Comfy ワークフローのリソース更新を強化し、設定と同期の信頼性を向上しました。\n- アートボードのサイズプリセット、ズーム、フィット、履歴、リサイズ状態を改善し、キャンバス操作を安定化しました。\n- デスクトップ版と Web Core が異なるバージョン情報を参照することで発生していた誤った更新通知を修正し、同一バージョンでは通知しないようにしました。\n- Windows のパッケージ済み実行ファイルのスモークテストを署名後へ移し、`rcedit` のリソース書き込みと競合するファイルロックを防止しました。\n- Windows、macOS、Web Core、更新メタデータが揃うまでデスクトップ資産を Draft に保持し、完了後に固定 Tag URL で公開して latest を切り替えます。\n\n## 한국어\n\n- 10.0.43의 JMCAI Gemini 비동기 이미지 모델, 원격 미디어 폴백, 동기 미디어 시간 제한 및 런타임 프로토콜 호환성 개선을 포함합니다.\n- 런타임 연결 별칭, 모델 목록 파싱 및 Comfy 워크플로 리소스 새로 고침을 강화하여 설정과 동기화 안정성을 높였습니다.\n- 아트보드 크기 프리셋, 확대/축소, 맞춤, 기록 및 크기 조절 상태를 개선하여 캔버스 조작 안정성을 높였습니다.\n- 데스크톱과 Web Core가 서로 다른 버전 소스를 사용해 발생하던 잘못된 업그레이드 알림을 수정했으며, 버전이 같으면 더 이상 업데이트를 표시하지 않습니다.\n- Windows 패키지 실행 파일 smoke를 서명 후 단계로 이동하여 `rcedit` 리소스 쓰기와 동시에 실행될 때 발생하던 파일 잠금 실패를 방지했습니다.\n- Windows, macOS, Web Core 및 업데이트 메타데이터가 모두 준비될 때까지 데스크톱 자산을 Draft로 유지하고, 완료 후 고정 Tag URL로 공개한 뒤 latest를 전환합니다.",
   "assets": {
-    "winSetup": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/latest/download/JMCAI-Setup.exe",
-    "winPortable": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/latest/download/JMCAI-Portable.exe",
-    "macArm": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/latest/download/JMCAI-Mac-ARM64.dmg",
-    "macIntel": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/latest/download/JMCAI-Mac-x64.dmg"
+    "winSetup": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/download/v10.0.44/JMCAI-Setup.exe",
+    "winPortable": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/download/v10.0.44/JMCAI-Portable.exe",
+    "macArm": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/download/v10.0.44/JMCAI-Mac-ARM64.dmg",
+    "macIntel": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/download/v10.0.44/JMCAI-Mac-x64.dmg"
   }
 }
