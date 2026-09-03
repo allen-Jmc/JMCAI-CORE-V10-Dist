@@ -1,14 +1,14 @@
 {
-  "version": "10.0.45",
-  "tag": "v10.0.45",
-  "name": "JMCAI CORE ComfyPro v10.0.45",
-  "publishedAt": "2026-08-31T22:34:18Z",
-  "releaseUrl": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/tag/v10.0.45",
-  "notesMarkdown": "# JMCAI CORE ComfyPro v10.0.45\n\n## 中文\n\n- 隔离不同 API Channel 的媒体引用，避免跨通道请求相互污染，并保留 multipart 图片引用的原始数据。\n- 修复 APIMart IPv4 DNS 查询在不同 `all` 返回形态下的地址解析，提升网络请求可靠性。\n- 支持动态 Workflow Cover 格式识别，保留 GIF、APNG 和动态 WebP 的媒体类型，并将封面裁剪统一为稳定的正方形画布。\n- 管理后台支持前后对比封面预览；封面加载失败时回退到占位图，避免列表布局和操作中断。\n- 补充媒体运行时、工作流封面、APIMart 网络、管理后台和多语言资源的回归测试，确保桌面端与 Web Core 发布链兼容。\n\n## English\n\n- Isolates media references between API channels to prevent cross-channel contamination while preserving original multipart image data.\n- Fixes APIMart IPv4 DNS handling across the different `all` lookup result shapes for more reliable network requests.\n- Detects dynamic Workflow Cover formats, preserves GIF, APNG, and animated WebP media types, and normalizes cover cropping to a stable square canvas.\n- Adds before/after comparison cover previews in the admin workflow list and falls back to a placeholder when a cover fails to load.\n- Adds regression coverage for media runtime behavior, workflow covers, APIMart networking, admin previews, and locale resources to keep desktop and Web Core release paths compatible.\n\n## 日本語\n\n- API チャネル間のメディア参照を分離し、チャネルをまたぐリクエストの汚染を防ぎながら multipart 画像の元データを保持します。\n- `all` オプションの異なる戻り値形式に対応して APIMart の IPv4 DNS 解決を修正し、ネットワーク要求の信頼性を高めました。\n- 動的な Workflow Cover 形式を検出し、GIF、APNG、アニメーション WebP のメディア種別を保持するとともに、カバーの切り抜きを安定した正方形キャンバスに統一しました。\n- 管理画面のワークフロー一覧で変更前後のカバーを比較表示し、画像の読み込みに失敗した場合はプレースホルダーへ安全にフォールバックします。\n- メディアランタイム、ワークフローカバー、APIMart ネットワーク、管理画面プレビュー、多言語リソースの回帰テストを追加し、デスクトップ版と Web Core のリリース互換性を維持します。\n\n## 한국어\n\n- API 채널 간 미디어 참조를 격리하여 채널 간 요청 오염을 방지하고 multipart 이미지의 원본 데이터를 보존합니다.\n- `all` 옵션에서 반환되는 여러 형태를 처리하도록 APIMart IPv4 DNS 조회를 수정하여 네트워크 요청 안정성을 높였습니다.\n- 동적 Workflow Cover 형식을 감지하고 GIF, APNG 및 애니메이션 WebP의 미디어 유형을 보존하며, 표지 자르기를 안정적인 정사각형 캔버스로 통일했습니다.\n- 관리자 워크플로 목록에서 변경 전후 표지를 비교할 수 있고, 이미지 로딩 실패 시 자리 표시자로 안전하게 대체됩니다.\n- 미디어 런타임, 워크플로 표지, APIMart 네트워크, 관리자 미리보기 및 다국어 리소스 회귀 테스트를 추가하여 데스크톱과 Web Core 릴리스 경로의 호환성을 유지합니다.",
+  "version": "10.0.46",
+  "tag": "v10.0.46",
+  "name": "JMCAI CORE ComfyPro v10.0.46",
+  "publishedAt": "2026-09-03T11:28:08Z",
+  "releaseUrl": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/tag/v10.0.46",
+  "notesMarkdown": "# JMCAI CORE ComfyPro v10.0.46\n\n## 中文\n\n- 恢复 Comfly 运行时桥接在异步图片编辑路径中的可用性，避免编辑链路中断。\n- 限制 Web multipart 运行时请求体大小，减少超大请求带来的传输和内存风险。\n- 按模型级别应用 APIMart Gemini 图片限制，让不同模型的参考图规则更准确。\n- 展示 Comfy 执行活动并在侧边栏保持可见，提升执行状态的可追踪性。\n- 新增 Comfy 预设搜索，帮助更快定位可用的工作流预设。\n\n## English\n\n- Restores the Comfly runtime bridge for async image edit flows so the edit pipeline stays intact.\n- Caps web multipart runtime request bodies to reduce transport and memory risk on oversized payloads.\n- Applies APIMart Gemini image limits at the model level so reference-image rules match each model more precisely.\n- Surfaces Comfy execution activity in the sidebar for clearer, persistent execution tracking.\n- Adds Comfy preset search to make available workflow presets easier to find.\n\n## 日本語\n\n- 非同期画像編集フローで Comfly ランタイムブリッジを復元し、編集パイプラインの中断を防ぎます。\n- Web multipart ランタイムのリクエストボディを制限し、過大なペイロードによる転送・メモリ負荷を抑えます。\n- APIMart Gemini の画像制限をモデル単位で適用し、各モデルに合った参照画像ルールを反映します。\n- Comfy の実行アクティビティをサイドバーに表示し、実行状況を追跡しやすくします。\n- Comfy プリセット検索を追加し、利用可能なワークフロープリセットを素早く見つけられるようにします。\n\n## 한국어\n\n- 비동기 이미지 편집 흐름에서 Comfly 런타임 브리지를 복구하여 편집 파이프라인이 끊기지 않도록 했습니다.\n- Web multipart 런타임 요청 본문 크기를 제한해 과도한 페이로드로 인한 전송 및 메모리 위험을 줄였습니다.\n- APIMart Gemini 이미지 제한을 모델 단위로 적용해 각 모델에 맞는 참고 이미지 규칙을 반영합니다.\n- Comfy 실행 활동을 사이드바에 표시해 실행 상태를 더 쉽게 추적할 수 있게 했습니다.\n- Comfy 프리셋 검색을 추가해 사용 가능한 워크플로 프리셋을 더 빠르게 찾을 수 있게 했습니다.",
   "assets": {
-    "winSetup": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/download/v10.0.45/JMCAI-Setup.exe",
-    "winPortable": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/download/v10.0.45/JMCAI-Portable.exe",
-    "macArm": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/download/v10.0.45/JMCAI-Mac-ARM64.dmg",
-    "macIntel": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/download/v10.0.45/JMCAI-Mac-x64.dmg"
+    "winSetup": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/download/v10.0.46/JMCAI-Setup.exe",
+    "winPortable": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/download/v10.0.46/JMCAI-Portable.exe",
+    "macArm": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/download/v10.0.46/JMCAI-Mac-ARM64.dmg",
+    "macIntel": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/download/v10.0.46/JMCAI-Mac-x64.dmg"
   }
 }
