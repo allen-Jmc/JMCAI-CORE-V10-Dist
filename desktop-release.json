@@ -1,14 +1,14 @@
 {
-  "version": "10.0.46",
-  "tag": "v10.0.46",
-  "name": "JMCAI CORE ComfyPro v10.0.46",
-  "publishedAt": "2026-09-03T11:28:08Z",
-  "releaseUrl": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/tag/v10.0.46",
-  "notesMarkdown": "# JMCAI CORE ComfyPro v10.0.46\n\n## 中文\n\n- 恢复 Comfly 运行时桥接在异步图片编辑路径中的可用性，避免编辑链路中断。\n- 限制 Web multipart 运行时请求体大小，减少超大请求带来的传输和内存风险。\n- 按模型级别应用 APIMart Gemini 图片限制，让不同模型的参考图规则更准确。\n- 展示 Comfy 执行活动并在侧边栏保持可见，提升执行状态的可追踪性。\n- 新增 Comfy 预设搜索，帮助更快定位可用的工作流预设。\n\n## English\n\n- Restores the Comfly runtime bridge for async image edit flows so the edit pipeline stays intact.\n- Caps web multipart runtime request bodies to reduce transport and memory risk on oversized payloads.\n- Applies APIMart Gemini image limits at the model level so reference-image rules match each model more precisely.\n- Surfaces Comfy execution activity in the sidebar for clearer, persistent execution tracking.\n- Adds Comfy preset search to make available workflow presets easier to find.\n\n## 日本語\n\n- 非同期画像編集フローで Comfly ランタイムブリッジを復元し、編集パイプラインの中断を防ぎます。\n- Web multipart ランタイムのリクエストボディを制限し、過大なペイロードによる転送・メモリ負荷を抑えます。\n- APIMart Gemini の画像制限をモデル単位で適用し、各モデルに合った参照画像ルールを反映します。\n- Comfy の実行アクティビティをサイドバーに表示し、実行状況を追跡しやすくします。\n- Comfy プリセット検索を追加し、利用可能なワークフロープリセットを素早く見つけられるようにします。\n\n## 한국어\n\n- 비동기 이미지 편집 흐름에서 Comfly 런타임 브리지를 복구하여 편집 파이프라인이 끊기지 않도록 했습니다.\n- Web multipart 런타임 요청 본문 크기를 제한해 과도한 페이로드로 인한 전송 및 메모리 위험을 줄였습니다.\n- APIMart Gemini 이미지 제한을 모델 단위로 적용해 각 모델에 맞는 참고 이미지 규칙을 반영합니다.\n- Comfy 실행 활동을 사이드바에 표시해 실행 상태를 더 쉽게 추적할 수 있게 했습니다.\n- Comfy 프리셋 검색을 추가해 사용 가능한 워크플로 프리셋을 더 빠르게 찾을 수 있게 했습니다.",
+  "version": "10.0.47",
+  "tag": "v10.0.47",
+  "name": "JMCAI CORE ComfyPro v10.0.47",
+  "publishedAt": "2026-09-30T20:43:39Z",
+  "releaseUrl": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/tag/v10.0.47",
+  "notesMarkdown": "# JMCAI CORE ComfyPro v10.0.47\n\n## 中文\n\n- 将 Prompt Skill 集成到聊天输入流程，支持斜杠命令调用，并简化 Skill Studio 的技能管理。\n- 优化 Agent 的工具调用判断、执行确认与过程记录，减少多轮对话中漏调用或误调用工具的情况。\n- 优化聊天失败后的恢复与重试，可切换模型重试普通对话，或编辑失败内容后再发送。\n- 支持在聊天中稳定引用和显示多张图片，并保留图片缩略图及会话恢复能力。\n- 由系统自动管理聊天上下文和模型默认参数，减少统一固定参数对不同模型的干扰。\n- 统一视频预览和播放器控件，默认静音自动播放，避免多个视频同时播放。\n- 修复 Windows 桌面打包中对原生图像处理模块的校验兼容性。\n\n## English\n\n- Integrates Prompt Skills into chat with slash commands and simplifies skill management in Skill Studio.\n- Improves Agent tool selection, execution confirmation, and activity records to reduce missed or unintended tool calls across turns.\n- Improves chat recovery and retry: ordinary chats can retry with the selected model, and failed prompts can be edited before sending again.\n- Supports stable display and reuse of multiple chat images, including thumbnails and session recovery.\n- Lets the system manage chat context and model-default parameters to avoid applying one fixed policy to different models.\n- Unifies video previews and player controls, mutes autoplay by default, and prevents overlapping playback.\n- Fixes Windows packaging verification for the native image-processing module.\n\n## 日本語\n\n- Prompt Skill をスラッシュコマンドでチャットから呼び出せるようにし、Skill Studio の管理を簡素化しました。\n- Agent のツール選択、実行確認、実行記録を改善し、複数ターンの会話での呼び出し漏れや誤呼び出しを減らします。\n- チャットの復旧と再試行を改善しました。通常の会話は選択中のモデルで再試行でき、失敗した内容は編集してから再送信できます。\n- 複数画像の安定した表示と再利用に対応し、サムネイルとセッション復元を維持します。\n- チャットのコンテキストとモデル既定パラメーターをシステムが管理し、異なるモデルへの一律な設定適用を避けます。\n- 動画プレビューとプレーヤー操作を統一し、自動再生を既定でミュートにして重複再生を防ぎます。\n- Windows のネイティブ画像処理モジュールに対するパッケージ検証を修正しました。\n\n## 한국어\n\n- Prompt Skill을 슬래시 명령으로 채팅에서 호출할 수 있도록 통합하고 Skill Studio의 관리 기능을 간소화했습니다.\n- Agent의 도구 선택, 실행 확인 및 실행 기록을 개선해 여러 차례 대화에서 도구 호출 누락이나 오호출을 줄입니다.\n- 채팅 복구와 재시도를 개선했습니다. 일반 대화는 선택한 모델로 다시 시도할 수 있고, 실패한 내용은 수정한 뒤 다시 보낼 수 있습니다.\n- 여러 채팅 이미지를 안정적으로 표시하고 다시 사용할 수 있으며, 썸네일과 세션 복구도 지원합니다.\n- 시스템이 채팅 컨텍스트와 모델 기본 매개변수를 관리해 서로 다른 모델에 동일한 고정 설정을 적용하지 않습니다.\n- 동영상 미리보기와 플레이어 제어를 통합하고 자동 재생을 기본 음소거로 설정해 중복 재생을 방지합니다.\n- Windows 네이티브 이미지 처리 모듈의 패키징 검증 문제를 수정했습니다.",
   "assets": {
-    "winSetup": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/download/v10.0.46/JMCAI-Setup.exe",
-    "winPortable": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/download/v10.0.46/JMCAI-Portable.exe",
-    "macArm": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/download/v10.0.46/JMCAI-Mac-ARM64.dmg",
-    "macIntel": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/download/v10.0.46/JMCAI-Mac-x64.dmg"
+    "winSetup": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/download/v10.0.47/JMCAI-Setup.exe",
+    "winPortable": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/download/v10.0.47/JMCAI-Portable.exe",
+    "macArm": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/download/v10.0.47/JMCAI-Mac-ARM64.dmg",
+    "macIntel": "https://github.com/allen-Jmc/JMCAI-CORE-V10-Dist/releases/download/v10.0.47/JMCAI-Mac-x64.dmg"
   }
 }
