@@ -1,10 +1,10 @@
 {
-  "version": "10.0.46",
+  "version": "10.0.47",
   "minAppVersion": "10.0.30",
-  "zipName": "web-core-v10.0.46.zip",
-  "sha256": "8d008f8f582558181cb142a039bae605167d6ec0a06d998bd25a0f6c2fc0c3b4",
-  "fileSize": 16125391,
-  "buildTime": "2026-09-03T11:27:34.719Z",
-  "url": "https://raw.githubusercontent.com/allen-Jmc/JMCAI-CORE-V10-Dist/main/release-web-core/web-core-v10.0.46.zip",
-  "fileSizeText": "15.4 MB"
+  "zipName": "web-core-v10.0.47.zip",
+  "sha256": "32a330db460b43f7366b8382914f0854c9e1606fcf831b133916bdbda08dd656",
+  "fileSize": 16011785,
+  "buildTime": "2026-09-30T20:43:11.356Z",
+  "url": "https://raw.githubusercontent.com/allen-Jmc/JMCAI-CORE-V10-Dist/main/release-web-core/web-core-v10.0.47.zip",
+  "fileSizeText": "15.3 MB"
 }
